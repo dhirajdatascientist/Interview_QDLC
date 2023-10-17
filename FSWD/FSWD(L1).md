@@ -158,8 +158,6 @@
    3. Explain the concept of "Pythonic" code.
 
 12. **Diagnostics and Troubleshooting**
-   1. How do you debug a Python application?
-   2. Describe some tools or techniques for profiling Python code.
-   3. How do you handle memory leaks in Python?
-
-Prepare for these questions, ensure you understand the underlying concepts, and be ready to give examples or demonstrate your coding abilities. Good luck with your mock interview!
+    1. How do you debug a Python application?
+    2. Describe some tools or techniques for profiling Python code.
+    3. How do you handle memory leaks in Python?
