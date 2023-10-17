@@ -143,19 +143,19 @@
    3. What are list comprehensions? Provide an example.
 
 9. **Libraries and Frameworks**
-   1. Name some popular Python libraries and their uses.
-   2. How do you install third-party packages in Python?
-   3. Describe the use of the `requests` library.
+    1. Name some popular Python libraries and their uses.
+    1. How do you install third-party packages in Python?
+    1. Describe the use of the `requests` library.
 
 10. **Advanced Concepts**
-   1. What are decorators and how are they used in Python?
-   2. Explain the concept of generators and the `yield` statement.
-   3. Describe the Global Interpreter Lock (GIL) and its implications.
+    1. What are decorators and how are they used in Python?
+    1. Explain the concept of generators and the `yield` statement.
+    1. Describe the Global Interpreter Lock (GIL) and its implications.
 
 11. **Best Practices**
-   1. What is PEP 8 and why is it significant?
-   2. How do you write clean, maintainable Python code?
-   3. Explain the concept of "Pythonic" code.
+    1. What is PEP 8 and why is it significant?
+    1. How do you write clean, maintainable Python code?
+    1. Explain the concept of "Pythonic" code.
 
 12. **Diagnostics and Troubleshooting**
     1. How do you debug a Python application?
