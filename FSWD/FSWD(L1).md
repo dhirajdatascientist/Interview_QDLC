@@ -98,6 +98,68 @@
    3. What are Flask context globals like `request`, `session`, and `g`?
 
 10. **Diagnostics and Troubleshooting**
-   1. How do you debug a Flask application?
-   2. How can you log errors or events in Flask?
-   3. Describe Flask's error handling mechanism.
+    1. How do you debug a Flask application?
+    2. How can you log errors or events in Flask?
+    3. Describe Flask's error handling mechanism.
+
+## Python
+
+1. **Introduction and Basics**
+   1. What is Python? Why is it so popular?
+   2. How does Python differ from other programming languages?
+   3. What are some key features of Python?
+
+2. **Core Concepts**
+   1. Explain the difference between Python 2 and Python 3.
+   2. What are the basic data types in Python?
+   3. What is the difference between a tuple and a list?
+
+3. **Flow Control and Loops**
+   1. Explain the difference between `for` and `while` loops in Python.
+   2. How do you use the `break`, `continue`, and `pass` statements?
+
+4. **Functions and Modules**
+   1. How do you define a function in Python?
+   2. What is a lambda function? Provide an example.
+   3. Explain the concept of modules and packages.
+
+5. **Object-Oriented Programming (OOP)**
+   1. What is a class in Python? How do you define one?
+   2. Describe inheritance and polymorphism in Python.
+   3. How do you handle encapsulation in Python?
+
+6. **File Handling and I/O**
+   1. How do you read and write to a file in Python?
+   2. What are context managers and how are they used with file operations?
+
+7. **Error and Exceptions**
+   1. How do you handle exceptions in Python?
+   2. Explain the difference between a syntax error and an exception.
+   3. What is the purpose of the `finally` block?
+
+8. **Data Structures and Algorithms**
+   1. How do you implement a stack or a queue using Python lists?
+   2. Describe a use case for dictionaries.
+   3. What are list comprehensions? Provide an example.
+
+9. **Libraries and Frameworks**
+   1. Name some popular Python libraries and their uses.
+   2. How do you install third-party packages in Python?
+   3. Describe the use of the `requests` library.
+
+10. **Advanced Concepts**
+   1. What are decorators and how are they used in Python?
+   2. Explain the concept of generators and the `yield` statement.
+   3. Describe the Global Interpreter Lock (GIL) and its implications.
+
+11. **Best Practices**
+   1. What is PEP 8 and why is it significant?
+   2. How do you write clean, maintainable Python code?
+   3. Explain the concept of "Pythonic" code.
+
+12. **Diagnostics and Troubleshooting**
+   1. How do you debug a Python application?
+   2. Describe some tools or techniques for profiling Python code.
+   3. How do you handle memory leaks in Python?
+
+Prepare for these questions, ensure you understand the underlying concepts, and be ready to give examples or demonstrate your coding abilities. Good luck with your mock interview!
