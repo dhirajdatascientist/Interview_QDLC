@@ -161,3 +161,260 @@
     1. How do you debug a Python application?
     2. Describe some tools or techniques for profiling Python code.
     3. How do you handle memory leaks in Python?
+
+
+# SQL
+
+## 1. Introduction and Basics
+   - What is SQL and why is it important?
+   - Describe the difference between SQL and NoSQL.
+   - What are the main types of SQL databases?
+
+## 2. Core Concepts
+   - What is a table, row, and column in the context of a relational database?
+   - Describe the difference between a primary key and a foreign key.
+   - Explain the concepts of normalization and denormalization.
+
+## 3. Query Basics
+   - How do you retrieve all columns from a table?
+   - Describe the difference between the `WHERE` and `HAVING` clauses.
+   - What is the purpose of the `GROUP BY` clause?
+
+## 4. Joins and Relations
+   - Explain the difference between INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.
+   - How do you retrieve records from multiple tables?
+   - What is a self join and when might you use it?
+
+## 5. Advanced Queries
+   - Describe the use of aggregate functions in SQL.
+   - How can you prevent SQL injection in your queries?
+   - What is the difference between `UNION` and `UNION ALL`?
+
+## 6. Database Design and Management
+   - How would you design a database schema for a multi-user blog platform?
+   - What are indexes and why are they important?
+   - Describe the concept of a database view.
+
+## 7. Transactions and Concurrency
+   - What is a database transaction?
+   - Explain the difference between `COMMIT` and `ROLLBACK`.
+   - What are locks and why are they used in databases?
+
+## 8. Stored Procedures and Functions
+   - What is a stored procedure?
+   - How do user-defined functions differ from stored procedures?
+   - Why might you choose to use a stored procedure over a regular query?
+
+## 9. Best Practices
+   - What are some best practices for writing efficient SQL queries?
+   - How do you ensure the integrity of data in a database?
+   - Describe the importance of backups in database management.
+
+## 10. Diagnostics and Troubleshooting
+   - How do you optimize a slow-running query?
+   - Describe how you would troubleshoot a database that is not responding.
+   - How do you monitor the health and performance of an SQL database?
+
+# MongoDB
+
+## 1. Introduction and Basics
+   - What is MongoDB and how does it differ from traditional relational databases?
+   - Describe the core principles of a NoSQL database.
+   - What type of database is MongoDB (e.g., document, key-value, columnar)?
+
+## 2. Core Concepts
+   - Explain the terms 'document', 'collection', and 'database' in the context of MongoDB.
+   - How is data structured in a MongoDB database?
+   - Describe the BSON format and its significance in MongoDB.
+
+## 3. CRUD Operations
+   - How do you insert a document into a MongoDB collection?
+   - Describe how to retrieve a document based on certain criteria.
+   - How can you update a document in a collection?
+   - What's the process to remove a document?
+
+## 4. Querying and Filters
+   - How do you perform a query to get documents that match multiple criteria?
+   - Explain the `$and`, `$or`, and `$not` operators.
+   - How can you limit or skip certain numbers of documents in the result?
+
+## 5. Indexing
+   - Why is indexing important in MongoDB?
+   - Describe the process to create an index on a collection.
+   - How can you check the indexes on a MongoDB collection?
+
+## 6. Data Modeling
+   - How does MongoDB handle relationships, like one-to-one or one-to-many?
+   - Describe embedded documents in MongoDB.
+   - When would you use referencing over embedding, or vice versa?
+
+## 7. Basics of Aggregation
+   - What is the aggregation framework in MongoDB?
+   - Give a basic example of using the `$group` aggregation stage.
+   - How do you filter documents in an aggregation pipeline?
+
+## 8. Administrative Basics
+   - How do you back up a MongoDB database?
+   - Describe how to restore a MongoDB database from backup.
+   - What is sharding in MongoDB and why is it used?
+
+# HTML & CSS 
+
+## 1. HTML Basics
+   - What is HTML and what does it stand for?
+   - Describe the structure of a basic HTML document.
+   - What's the difference between an element and an attribute?
+
+## 2. Common HTML Elements
+   - How do you create links using HTML?
+   - Describe the difference between `<div>` and `<span>`.
+   - What are semantic HTML elements? Give examples.
+
+## 3. Forms and Input
+   - How do you create a form in HTML?
+   - Explain the differences between the `GET` and `POST` methods in a form.
+   - Describe some common input types and their purpose.
+
+## 4. Multimedia and Embedding
+   - How do you embed an image into an HTML document?
+   - Explain the use of the `<audio>` and `<video>` elements.
+   - How do you create tables in HTML? Mention some attributes related to table formatting.
+
+## 5. CSS Basics
+   - What is CSS and how is it used alongside HTML?
+   - Describe the difference between inline, internal, and external CSS.
+   - How do you link an external CSS file to an HTML document?
+
+## 6. Selectors, Properties, and Values
+   - How do you style an element with a specific class or ID in CSS?
+   - What is the difference between a class and an ID in CSS?
+   - How do you specify multiple styles for a single element?
+
+## 7. Box Model and Layout
+   - Describe the CSS box model.
+   - How do you control the spacing between elements using CSS?
+   - What's the difference between `margin` and `padding`?
+
+## 8. Positioning and Display
+   - Explain the differences between `relative`, `absolute`, `fixed`, and `static` positioning.
+   - Describe the difference between `block`, `inline`, and `inline-block` display values.
+   - How do you center an element horizontally and vertically using CSS?
+
+## 9. Styling Text and Fonts
+   - How do you change the font size, color, and style of text using CSS?
+   - Explain the difference between `serif`, `sans-serif`, and `monospace` fonts.
+   - How can you include custom fonts in a webpage?
+
+## 10. Responsive Design and Media Queries
+   - What is responsive design and why is it important?
+   - How do you use media queries to make a design responsive?
+   - Describe the difference between `px`, `em`, `rem`, and `%` units in CSS.
+
+# Microservices 
+
+## 1. Introduction and Basics
+   - What are microservices?
+   - How do microservices differ from monolithic architectures?
+   - What are some key benefits and challenges of using microservices?
+
+## 2. Design Principles
+   - What are the core principles of a microservices architecture?
+   - How do you determine service boundaries when designing microservices?
+   - Describe the concept of a "bounded context" in microservices.
+
+## 3. Communication Between Microservices
+   - How do microservices communicate with each other?
+   - Explain the difference between synchronous and asynchronous communication in the context of microservices.
+   - What are some common communication protocols used in microservices? (e.g., REST, gRPC, message queues)
+
+## 4. Data Management
+   - How is data managed in a microservices architecture?
+   - What does "database per service" mean?
+   - Describe the challenges of data consistency in microservices.
+
+## 5. Deployment and Scalability
+   - How are microservices typically deployed?
+   - Describe how microservices can be scaled independently.
+   - What role does containerization (e.g., Docker) play in microservices?
+
+## 6. Service Discovery and Load Balancing
+   - What is service discovery in the context of microservices?
+   - How do you handle load balancing for microservices?
+   - Name some popular service discovery tools or solutions.
+
+## 7. API Gateways
+   - What is an API gateway and why is it important in a microservices architecture?
+   - How does an API gateway handle request routing?
+   - Describe the role of an API gateway in authentication and authorization.
+
+## 8. Resilience and Fault Tolerance
+   - How do you handle failures in a microservices architecture?
+   - Describe the Circuit Breaker pattern.
+   - Why is monitoring and logging crucial in microservices?
+
+## 9. Security Concerns
+   - How do you secure microservices?
+   - Describe how authentication and authorization are handled in a microservices environment.
+   - What challenges does microservices bring in terms of security?
+
+## 10. Best Practices
+   - What are some best practices for designing and implementing microservices?
+   - Why is it advised to keep microservices stateless?
+   - How do you handle versioning in microservices?
+
+# RestAPI
+
+# RESTful API Basic Interview Questions
+
+## 1. Introduction and Basics
+   - What is a RESTful API?
+   - How does a RESTful API differ from other types of APIs?
+   - Describe the main principles of REST.
+
+## 2. HTTP Methods
+   - What are the primary HTTP methods used in RESTful APIs? Describe their usage.
+   - How is the `POST` method different from the `PUT` method?
+   - What is idempotence in the context of HTTP methods?
+
+## 3. Status Codes
+   - What are HTTP status codes and why are they important?
+   - Describe the difference between 2xx, 4xx, and 5xx status codes.
+   - What status code would you return for a successful `GET` request? And for a failed validation?
+
+## 4. Resources and URIs
+   - How should you design the URIs for a RESTful API?
+   - Describe the difference between a URI and a URL.
+   - How would you design an endpoint for retrieving a specific item from a collection?
+
+## 5. Payloads and Formats
+   - What are common data formats used in RESTful APIs?
+   - How do you specify the format of data exchange in a RESTful request?
+   - Why is JSON commonly used in RESTful APIs over XML?
+
+## 6. Statelessness
+   - What does it mean when we say RESTful APIs should be stateless?
+   - Why is statelessness important for scalability?
+   - How can session information be handled without violating the stateless principle?
+
+## 7. Versioning
+   - Why might you need to version a RESTful API?
+   - Describe some common strategies for API versioning.
+   - How can versioning be indicated in the URI or headers?
+
+## 8. Authentication and Authorization
+   - How do you secure a RESTful API?
+   - Describe the difference between authentication and authorization.
+   - What are some common methods for API authentication? (e.g., API keys, JWT)
+
+## 9. Rate Limiting and Throttling
+   - Why might you want to implement rate limiting on your API?
+   - Describe the difference between rate limiting and throttling.
+   - How can rate limits be communicated to the clients?
+
+## 10. Best Practices
+   - Why is caching important in a RESTful API, and how can it be implemented?
+   - Describe the importance of proper error handling in an API.
+   - Why is it recommended to use plural nouns for resource names in URIs?
+
+
+
